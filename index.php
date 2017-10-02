@@ -1,8 +1,8 @@
 <?php
 $min = 0;
-$max = 300;
-for($i = 1; $i < $max ; $i=$i+2){
-    echo $i.' ';
+$max = 100;
+for($number = 1; $number < $max ; $number=$number+2){
+    echo $number.' ';
 }
 echo 'Les chiffres impairs compris entre '.$min.' et '.$max.' sont : ';
 ?>
